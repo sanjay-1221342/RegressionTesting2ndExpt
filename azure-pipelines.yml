@@ -20,5 +20,5 @@ steps:
     goals: 'clean test'
 - task: PublishTestResults@2
   inputs:
-    testResultsFiles: '**/surefire-reprts/TEST-*.xml'
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
     testRunTitle: 'JUnit Test Results'
